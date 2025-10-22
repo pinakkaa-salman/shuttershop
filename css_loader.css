@@ -1,25 +1,3 @@
-<?php
-/**
- * Dynamic CSS Output
- * This file outputs CSS with proper headers
- */
-
-// Set the content type to CSS
-header('Content-Type: text/css; charset=UTF-8');
-
-// Optional: Enable caching (uncomment if needed)
-// header('Cache-Control: max-age=31536000, public');
-// header('Expires: ' . gmdate('D, d M Y H:i:s', time() + 31536000) . ' GMT');
-
-// You can add PHP variables for dynamic values if needed
-$primary_color = '#c80000';
-$secondary_color = '#e9ede7';
-$font_family_primary = "'Alegreya Sans', sans-serif";
-$font_family_secondary = "'Frank Ruhl Libre', serif";
-
-// Output the CSS
-?>
-
 @charset "UTF-8";body.fancybox-active {
     overflow: hidden
 }
